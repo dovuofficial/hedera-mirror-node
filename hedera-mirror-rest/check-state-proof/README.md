@@ -7,6 +7,26 @@ Refer to the [State Proof Alpha Design](https://github.com/hashgraph/hedera-mirr
 
 A node based CLI tool `check-state-proof` is provided here to showcase the steps necessary to independently check the validity of a transaction.
 
+## DOVU Certificates v1
+
+This is a fork of Hedera Hashgraph's mirror node for users of DOVU certificates. A certificate comprises of the transaction id of the transfer of a token to signify retirement and a QR code that is linked to a file in IPFS / Filecoin for permanance.
+
+DOVU consumers are welcome to utilise this tool to check the date of retirement.
+
+We've added a preinstall flag for ``npm i`` to ensure that the installation will execute on both the current and parent directory.
+
+Depending on the need of this tool we may update it to be easier to check retirement, with features like:
+
+- Scanning in QR codes
+- Automatically the command
+- Additional developer/simplier processing
+
+We are aware that this work should be transparent and open.
+
+## Original Readme 👇
+
+---
+
 ## Logic
 The CLI takes the following steps to prove legitimacy of provided transaction ID
 
