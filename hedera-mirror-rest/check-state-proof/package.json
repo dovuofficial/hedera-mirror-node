@@ -4,6 +4,7 @@
   "description": "An example implementation of a state proof flow fora transaction utilizing the mirror node.",
   "main": "index.js",
   "scripts": {
+    "preinstall": "cd ../ ; npm install",
     "test": "jest --testPathPattern='tests/.*\\.test\\.js'",
     "start": "node index.js"
   },
